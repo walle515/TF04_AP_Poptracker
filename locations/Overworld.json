@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Overworld",
+        "overlay_background": "#000000",
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Cybertron",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "unicronlevelunlock,minicons_reached,bosses_beaten"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 721,
+                        "y": 367,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Cybertron",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            }
+        ]
+    }
+]

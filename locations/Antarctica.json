@@ -1,0 +1,462 @@
+[
+    {
+        "name": "Antarctica",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "antarcticalevelunlock"
+        ],
+        "children": [
+            {
+                "name": "Antarctica-Rock of Power",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 1181,
+                        "y": 490,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Rock of Power",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Research Base Office 1",
+                "access_rules": [
+                    "claymore",
+                    "failsafe",
+                    "flashbang",
+                    "hailstorm",
+                    "lock-on",
+                    "watchdog",
+                    "slapshot"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 267,
+                        "y": 520,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Research Base Office 1",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Midfield Beacon",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 581,
+                        "y": 249,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Midfield Beacon",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Hide-and-Seek Champion",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 1438,
+                        "y": 578,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Hide-and-Seek Champion",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Research Base Containers 1",
+                "access_rules": [
+                    "claymore",
+                    "failsafe",
+                    "flashbang",
+                    "hailstorm",
+                    "lock-on",
+                    "watchdog",
+                    "slapshot"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 254,
+                        "y": 560,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Research Base Containers 1",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Research Base Containers 2",
+                "access_rules": [
+                    "claymore",
+                    "failsafe",
+                    "flashbang",
+                    "hailstorm",
+                    "lock-on",
+                    "watchdog",
+                    "slapshot"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 279,
+                        "y": 504,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Research Base Containers 2",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Research Base Office 3",
+                "access_rules": [
+                    "claymore",
+                    "failsafe",
+                    "flashbang",
+                    "hailstorm",
+                    "lock-on",
+                    "watchdog",
+                    "slapshot"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 240,
+                        "y": 507,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Research Base Office 3",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Crashed Icebreaker",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 335,
+                        "y": 160,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Crashed Icebreaker",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Research Center Hangar",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 240,
+                        "y": 551,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Research Center Hangar",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Beachfront Property",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 761,
+                        "y": 131,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Beachfront Property",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Crashed Plane",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 539,
+                        "y": 553,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Crashed Plane",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Research Base Office 4",
+                "access_rules": [
+                    "claymore",
+                    "failsafe",
+                    "flashbang",
+                    "hailstorm",
+                    "lock-on",
+                    "watchdog",
+                    "slapshot"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 286,
+                        "y": 546,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Research Base Office 4",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Crevasse Field Overlook",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 1061,
+                        "y": 402,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Crevasse Field Overlook",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Lonely Island",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 41,
+                        "y": 296,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Lonely Island",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Research Base Office 2",
+                "access_rules": [
+                    "claymore",
+                    "failsafe",
+                    "flashbang",
+                    "hailstorm",
+                    "lock-on",
+                    "watchdog",
+                    "slapshot"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 252,
+                        "y": 535,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Research Base Office 2",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica-Across the Field",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 618,
+                        "y": 40,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica-Across the Field",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Antarctica Boss",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Antarctica",
+                        "x": 267,
+                        "y": 548,
+                        "size": 10,
+                        "shape": "rect"
+                    },
+					{
+                        "map": "Overworld",
+                        "x": 1176,
+                        "y": 196,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Antarctica Boss",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Antarctica",
+                "x": 121,
+                "y": 105,
+                "size": 40,
+                "shape": "diamond"
+            },
+			{
+				"map": "Overworld",
+				"x": 85,
+				"y": 196,
+				"size": 40,
+				"shape": "diamond"
+			}
+        ],
+		"sections": [
+			{ "ref": "Antarctica/Antarctica-Rock of Power/Antarctica-Rock of Power" },
+			{ "ref": "Antarctica/Antarctica-Research Base Office 1/Antarctica-Research Base Office 1" },
+			{ "ref": "Antarctica/Antarctica-Midfield Beacon/Antarctica-Midfield Beacon" },
+			{ "ref": "Antarctica/Antarctica-Hide-and-Seek Champion/Antarctica-Hide-and-Seek Champion" },
+			{ "ref": "Antarctica/Antarctica-Research Base Containers 1/Antarctica-Research Base Containers 1" },
+			{ "ref": "Antarctica/Antarctica-Research Base Containers 2/Antarctica-Research Base Containers 2" },
+			{ "ref": "Antarctica/Antarctica-Research Base Office 3/Antarctica-Research Base Office 3" },
+			{ "ref": "Antarctica/Antarctica-Crashed Icebreaker/Antarctica-Crashed Icebreaker" },
+			{ "ref": "Antarctica/Antarctica-Research Center Hangar/Antarctica-Research Center Hangar" },
+			{ "ref": "Antarctica/Antarctica-Beachfront Property/Antarctica-Beachfront Property" },
+			{ "ref": "Antarctica/Antarctica-Crashed Plane/Antarctica-Crashed Plane" },
+			{ "ref": "Antarctica/Antarctica-Research Base Office 4/Antarctica-Research Base Office 4" },
+			{ "ref": "Antarctica/Antarctica-Crevasse Field Overlook/Antarctica-Crevasse Field Overlook" },
+			{ "ref": "Antarctica/Antarctica-Lonely Island/Antarctica-Lonely Island" },
+			{ "ref": "Antarctica/Antarctica-Research Base Office 2/Antarctica-Research Base Office 2" },
+			{ "ref": "Antarctica/Antarctica-Across the Field/Antarctica-Across the Field" },
+			{ "ref": "Antarctica/Antarctica Boss/Antarctica Boss" }
+		]
+    }
+]

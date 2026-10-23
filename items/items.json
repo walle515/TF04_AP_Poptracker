@@ -1,0 +1,982 @@
+[
+    {
+        "name": "datacon(instructionsheetredalert)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(instructionsheetredalert)"
+    },
+    {
+        "name": "datacon(productionartdeepamazon)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(productionartdeepamazon)"
+    },
+    {
+        "name": "datacon(cardartwork)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(cardartwork)"
+    },
+    {
+        "name": "stronghold",
+        "type": "toggle",
+        "img": "images/items/Stronghold.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stronghold"
+    },
+    {
+        "name": "jumpstart",
+        "type": "toggle",
+        "img": "images/items/Jumpstart.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jumpstart"
+    },
+    {
+        "name": "datacon(rendersdecepticlone2)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersdecepticlone2)"
+    },
+    {
+        "name": "datacon(themeregurgitator)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(themeregurgitator)"
+    },
+    {
+        "name": "datacon(productionartmidatlantic)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(productionartmidatlantic)"
+    },
+    {
+        "name": "comeback",
+        "type": "toggle",
+        "img": "images/items/Comeback.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "comeback"
+    },
+    {
+        "name": "aftershock",
+        "type": "toggle",
+        "img": "images/items/Aftershock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "aftershock"
+    },
+    {
+        "name": "sparkjump",
+        "type": "toggle",
+        "img": "images/items/Sparkjump.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sparkjump"
+    },
+    {
+        "name": "corona",
+        "type": "toggle",
+        "img": "images/items/Corona.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "corona"
+    },
+    {
+        "name": "watchdog",
+        "type": "toggle",
+        "img": "images/items/Watchdog.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "watchdog"
+    },
+    {
+        "name": "knockdown",
+        "type": "toggle",
+        "img": "images/items/Knockdown.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "knockdown"
+    },
+    {
+        "name": "datacon(rendersminicons)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersminicons)"
+    },
+    {
+        "name": "datacon(instructionsheetmegatron)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(instructionsheetmegatron)"
+    },
+    {
+        "name": "datacon(conceptartdecepticlone)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(conceptartdecepticlone)"
+    },
+    {
+        "name": "datacon(moviestills1)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(moviestills1)"
+    },
+    {
+        "name": "hailstorm",
+        "type": "toggle",
+        "img": "images/items/Hailstorm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hailstorm"
+    },
+    {
+        "name": "buildup",
+        "type": "toggle",
+        "img": "images/items/Buildup.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "buildup"
+    },
+    {
+        "name": "datacon(minicomic2)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(minicomic2)"
+    },
+    {
+        "name": "datacon(moviestills5)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(moviestills5)"
+    },
+    {
+        "name": "datacon(rendersdecepticon)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersdecepticon)"
+    },
+    {
+        "name": "datacon(productionartamazon)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(productionartamazon)"
+    },
+    {
+        "name": "datacon(tvspot3)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(tvspot3)"
+    },
+    {
+        "name": "datacon(rendersautobots2)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersautobots2)"
+    },
+    {
+        "name": "datacon(toyproductionminicons)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(toyproductionminicons)"
+    },
+    {
+        "name": "fullspeed",
+        "type": "toggle",
+        "img": "images/items/Fullspeed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fullspeed"
+    },
+    {
+        "name": "datacon(toyproductioncyclonus)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(toyproductioncyclonus)"
+    },
+    {
+        "name": "datacon(themeorchestral)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(themeorchestral)"
+    },
+    {
+        "name": "datacon(rendersautobots3)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersautobots3)"
+    },
+    {
+        "name": "datacon(toyproductionmegatron)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(toyproductionmegatron)"
+    },
+    {
+        "name": "datacon(productionartantarctica)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(productionartantarctica)"
+    },
+    {
+        "name": "covert",
+        "type": "toggle",
+        "img": "images/items/Covert.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "covert"
+    },
+    {
+        "name": "datacon(moviestills6)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(moviestills6)"
+    },
+    {
+        "name": "deepamazonlevelunlock",
+        "type": "toggle",
+        "img": "images/items/deepamazonlevelunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "deepamazonlevelunlock"
+    },
+    {
+        "name": "airburst",
+        "type": "toggle",
+        "img": "images/items/Airburst.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "airburst"
+    },
+    {
+        "name": "datacon(toyproductionstarscream)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(toyproductionstarscream)"
+    },
+    {
+        "name": "datacon(decepticlonesubmission)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(decepticlonesubmission)"
+    },
+    {
+        "name": "datacon(tvspot1)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(tvspot1)"
+    },
+    {
+        "name": "datacon(productionartalaska)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(productionartalaska)"
+    },
+    {
+        "name": "datacon(themedropbox)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(themedropbox)"
+    },
+    {
+        "name": "lookout",
+        "type": "toggle",
+        "img": "images/items/Lookout.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lookout"
+    },
+    {
+        "name": "datacon(rendersdecepticlone3)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersdecepticlone3)"
+    },
+    {
+        "name": "datacon(artpostcards)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(artpostcards)"
+    },
+    {
+        "name": "datacon(cgproductionsequence)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(cgproductionsequence)"
+    },
+    {
+        "name": "twister",
+        "type": "toggle",
+        "img": "images/items/Twister.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "twister"
+    },
+    {
+        "name": "shieldwall",
+        "type": "toggle",
+        "img": "images/items/Shieldwall.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shieldwall"
+    },
+    {
+        "name": "datacon(toyproductionhotshot)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(toyproductionhotshot)"
+    },
+    {
+        "name": "amazonlevelunlock",
+        "type": "toggle",
+        "img": "images/items/amazonlevelunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "amazonlevelunlock"
+    },
+    {
+        "name": "claymore",
+        "type": "toggle",
+        "img": "images/items/Claymore.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "claymore"
+    },
+    {
+        "name": "tractor",
+        "type": "toggle",
+        "img": "images/items/Tractor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tractor"
+    },
+    {
+        "name": "stealthtrap",
+        "type": "consumable",
+        "img": "images/items/stealthtrap.png",
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "stealthtrap"
+    },
+    {
+        "name": "datacon(levelstoryboardsamazon)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(levelstoryboardsamazon)"
+    },
+    {
+        "name": "datacon(rendersdecepticons2)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersdecepticons2)"
+    },
+    {
+        "name": "aurora",
+        "type": "toggle",
+        "img": "images/items/Aurora.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "aurora"
+    },
+    {
+        "name": "datacon(productionartstarship)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(productionartstarship)"
+    },
+    {
+        "name": "datacon(toyproductiontidalwave)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(toyproductiontidalwave)"
+    },
+    {
+        "name": "highjump",
+        "type": "toggle",
+        "img": "images/items/Highjump.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "highjump"
+    },
+    {
+        "name": "datacon(prodcutionartpacificisland)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(prodcutionartpacificisland)"
+    },
+    {
+        "name": "datacon(instructionsheetoptimus)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(instructionsheetoptimus)"
+    },
+    {
+        "name": "datacon(rendersautobots)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersautobots)"
+    },
+    {
+        "name": "datacon(rendersdecepticlone)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersdecepticlone)"
+    },
+    {
+        "name": "healthrefill",
+        "type": "consumable",
+        "img": "images/items/healthrefill.png",
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "healthrefill"
+    },
+    {
+        "name": "midatlanticlevelunlock",
+        "type": "toggle",
+        "img": "images/items/midatlanticlevelunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "midatlanticlevelunlock"
+    },
+    {
+        "name": "safeguard",
+        "type": "toggle",
+        "img": "images/items/Safeguard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "safeguard"
+    },
+    {
+        "name": "smackdown",
+        "type": "toggle",
+        "img": "images/items/Smackdown.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "smackdown"
+    },
+    {
+        "name": "datacon(toyproductionoptimus)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(toyproductionoptimus)"
+    },
+    {
+        "name": "starshiplevelunlock",
+        "type": "toggle",
+        "img": "images/items/starshiplevelunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "starshiplevelunlock"
+    },
+    {
+        "name": "datacon(dropbox_wishbone)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(dropbox_wishbone)"
+    },
+    {
+        "name": "datacon(conceptartautobots)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(conceptartautobots)"
+    },
+    {
+        "name": "datacon(instructionsheethotshot)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(instructionsheethotshot)"
+    },
+    {
+        "name": "alaskalevelunlock",
+        "type": "toggle",
+        "img": "images/items/alaskalevelunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "alaskalevelunlock"
+    },
+    {
+        "name": "bighead(nextlevel)",
+        "type": "consumable",
+        "img": "images/items/bighead(nextlevel).png",
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "bighead(nextlevel)"
+    },
+    {
+        "name": "datacon(leclezio1)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(leclezio1)"
+    },
+    {
+        "name": "datacon(launchphotos)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(launchphotos)"
+    },
+    {
+        "name": "datacon(cgproductionsequence2)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(cgproductionsequence2)"
+    },
+    {
+        "name": "datacon(minicomic4)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(minicomic4)"
+    },
+    {
+        "name": "datacon(tvspot5)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(tvspot5)"
+    },
+    {
+        "name": "datacon(moviestills2)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(moviestills2)"
+    },
+    {
+        "name": "bulletproof",
+        "type": "toggle",
+        "img": "images/items/Bulletproof.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bulletproof"
+    },
+    {
+        "name": "freezetrap",
+        "type": "consumable",
+        "img": "images/items/freezetrap.png",
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "freezetrap"
+    },
+    {
+        "name": "firefight",
+        "type": "toggle",
+        "img": "images/items/Firefight.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "firefight"
+    },
+    {
+        "name": "rangefinder",
+        "type": "toggle",
+        "img": "images/items/Rangefinder.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rangefinder"
+    },
+    {
+        "name": "overwatch",
+        "type": "toggle",
+        "img": "images/items/Overwatch.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "overwatch"
+    },
+    {
+        "name": "unicronlevelunlock",
+        "type": "toggle",
+        "img": "images/items/unicronlevelunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "unicronlevelunlock"
+    },
+    {
+        "name": "skirmish",
+        "type": "toggle",
+        "img": "images/items/Skirmish.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "skirmish"
+    },
+    {
+        "name": "flashbang",
+        "type": "toggle",
+        "img": "images/items/Flashbang.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "flashbang"
+    },
+    {
+        "name": "slapshot",
+        "type": "toggle",
+        "img": "images/items/Slapshot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "slapshot"
+    },
+    {
+        "name": "hawkeye",
+        "type": "toggle",
+        "img": "images/items/Hawkeye.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hawkeye"
+    },
+    {
+        "name": "datacon(minicomic3)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(minicomic3)"
+    },
+    {
+        "name": "deflector",
+        "type": "toggle",
+        "img": "images/items/Deflector.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "deflector"
+    },
+    {
+        "name": "datacon(characterenergon)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(characterenergon)"
+    },
+    {
+        "name": "datacon(rendersdecepticlone4)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(rendersdecepticlone4)"
+    },
+    {
+        "name": "kickback",
+        "type": "toggle",
+        "img": "images/items/Kickback.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kickback"
+    },
+    {
+        "name": "lock-on",
+        "type": "toggle",
+        "img": "images/items/Lock-On.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lock-on"
+    },
+    {
+        "name": "shockpunch",
+        "type": "toggle",
+        "img": "images/items/Shockpunch.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shockpunch"
+    },
+    {
+        "name": "datacon(productionartautobothq)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(productionartautobothq)"
+    },
+    {
+        "name": "antarcticalevelunlock",
+        "type": "toggle",
+        "img": "images/items/antarcticalevelunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "antarcticalevelunlock"
+    },
+    {
+        "name": "datacon(tvspot2)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(tvspot2)"
+    },
+    {
+        "name": "datacon(moviestills3)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(moviestills3)"
+    },
+    {
+        "name": "slipstream",
+        "type": "toggle",
+        "img": "images/items/Slipstream.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "slipstream"
+    },
+    {
+        "name": "discord",
+        "type": "toggle",
+        "img": "images/items/Discord.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "discord"
+    },
+    {
+        "name": "pressurepoint",
+        "type": "toggle",
+        "img": "images/items/Pressurepoint.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pressurepoint"
+    },
+    {
+        "name": "datacon(tvseriesthememusic)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(tvseriesthememusic)"
+    },
+    {
+        "name": "datacon(tvspot4)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(tvspot4)"
+    },
+    {
+        "name": "highgear",
+        "type": "toggle",
+        "img": "images/items/Highgear.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "highgear"
+    },
+    {
+        "name": "datacon(leclezio2)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(leclezio2)"
+    },
+    {
+        "name": "shepherd",
+        "type": "toggle",
+        "img": "images/items/Shepherd.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shepherd"
+    },
+    {
+        "name": "failsafe",
+        "type": "toggle",
+        "img": "images/items/Failsafe.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "failsafe"
+    },
+    {
+        "name": "datacon(toyproductionredalert)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(toyproductionredalert)"
+    },
+    {
+        "name": "pacificislandlevelunlock",
+        "type": "toggle",
+        "img": "images/items/pacificislandlevelunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pacificislandlevelunlock"
+    },
+    {
+        "name": "datacon(minicomic1)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(minicomic1)"
+    },
+    {
+        "name": "datacon(moviestills4)",
+        "type": "toggle",
+        "img": "images/items/Datacon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "datacon(moviestills4)"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    },
+	{
+		"name": "beginner_location_enabled",
+		"type": "toggle",
+		"img": "images/transparent.png",
+		"initial_active_state": false,
+		"codes": "beginner_location_enabled"
+	},
+	{
+		"name": "minicon_counter",
+		"type": "static",
+		"img": "images/transparent.png",
+		"codes": "minicon_counter",
+		"overlay_align": "left",
+		"overlay_font_size": 12
+	},
+	{
+		"name": "minicons_reached",
+		"type": "toggle",
+		"img": "images/transparent.png",
+		"initial_active_state": false,
+		"codes": "minicons_reached"
+	},
+	{
+		"name": "bosses_goal",
+		"type": "toggle",
+		"img": "images/transparent.png",
+		"initial_active_state": false,
+		"codes": "bosses_goal"
+	},
+	{
+		"name": "bosses_beaten",
+		"type": "toggle",
+		"img": "images/transparent.png",
+		"initial_active_state": false,
+		"codes": "bosses_beaten"
+	}
+]

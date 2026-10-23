@@ -1,0 +1,545 @@
+[
+    {
+        "name": "Starship",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "starshiplevelunlock"
+        ],
+        "children": [
+            {
+                "name": "Starship-Start of the Climb",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1824,
+                        "y": 1217,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Start of the Climb",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-First Steps",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1582,
+                        "y": 1107,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-First Steps",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Main Elevator",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1791,
+                        "y": 934,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Main Elevator",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Sideways Elevator",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1911,
+                        "y": 614,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Sideways Elevator",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Lower Dropship",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1703,
+                        "y": 611,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Lower Dropship",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Bait",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1683,
+                        "y": 499,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Bait",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Free Space",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1474,
+                        "y": 508,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Free Space",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Across the Gap",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1924,
+                        "y": 460,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Across the Gap",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Early Gift",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1549,
+                        "y": 556,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Early Gift",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Bridge",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+				"clear_as_group": true,
+				"sections":[
+					{
+						"name": "Bridge",
+						"item_count": 1,
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				],
+                "children": [
+                    {
+                        "name": "Starship-Clean Bridge",
+                        "map_locations": [
+                            {
+                                "map": "Starship",
+                                "x": 1224,
+                                "y": 378,
+                                "size": 10,
+                                "shape": "rect"
+                            }
+                        ],
+						"sections": [
+							{
+								"ref": "Starship-Bridge/Bridge"
+							}
+						]
+                    },
+                    {
+                        "name": "Starship-Crashed Bridge",
+                        "map_locations": [
+                            {
+                                "map": "Starship",
+                                "x": 1813,
+                                "y": 1301,
+                                "size": 10,
+                                "shape": "rect"
+                            }
+                        ],
+						"sections": [
+							{
+								"ref": "Starship-Bridge/Bridge"
+							}
+						]
+                    }
+                ]
+            },
+            {
+                "name": "Starship-Top of the Crashed Ship",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1649,
+                        "y": 362,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Top of the Crashed Ship",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Dropdown 1",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1704,
+                        "y": 1165,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Dropdown 1",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Risky Jump",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1597,
+                        "y": 1079,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Risky Jump",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Rock 1",
+                "access_rules": [
+                    "highjump,slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 870,
+                        "y": 821,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Rock 1",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Middle Dropship",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1703,
+                        "y": 562,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Middle Dropship",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Dropdown 2",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 1791,
+                        "y": 450,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Dropdown 2",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Rock 2",
+                "access_rules": [
+                    "highjump,slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 666,
+                        "y": 807,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Rock 2",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Rock 3",
+                "access_rules": [
+                    "highjump,slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 565,
+                        "y": 1261,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Rock 3",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship-Rock 4",
+                "access_rules": [
+                    "highjump,slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 383,
+                        "y": 1189,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship-Rock 4",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Starship Boss",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Starship",
+                        "x": 500,
+                        "y": 985,
+                        "size": 10,
+                        "shape": "rect"
+                    },
+					{
+                        "map": "Overworld",
+                        "x": 1176,
+                        "y": 588,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Starship Boss",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Starship",
+                "x": 235,
+                "y": 41,
+                "size": 40,
+                "shape": "diamond"
+            },
+			{
+				"map": "Overworld",
+				"x": 85,
+				"y": 588,
+				"size": 40,
+				"shape": "diamond"
+			}
+        ],
+		"sections": [
+			{ "ref": "Starship/Starship-Start of the Climb/Starship-Start of the Climb" },
+			{ "ref": "Starship/Starship-First Steps/Starship-First Steps" },
+			{ "ref": "Starship/Starship-Main Elevator/Starship-Main Elevator" },
+			{ "ref": "Starship/Starship-Sideways Elevator/Starship-Sideways Elevator" },
+			{ "ref": "Starship/Starship-Lower Dropship/Starship-Lower Dropship" },
+			{ "ref": "Starship/Starship-Bait/Starship-Bait" },
+			{ "ref": "Starship/Starship-Free Space/Starship-Free Space" },
+			{ "ref": "Starship/Starship-Across the Gap/Starship-Across the Gap" },
+			{ "ref": "Starship/Starship-Early Gift/Starship-Early Gift" },
+			{ "ref": "Starship/Starship-Bridge/Starship-Bridge" },
+			{ "ref": "Starship/Starship-Top of the Crashed Ship/Starship-Top of the Crashed Ship" },
+			{ "ref": "Starship/Starship-Dropdown 1/Starship-Dropdown 1" },
+			{ "ref": "Starship/Starship-Risky Jump/Starship-Risky Jump" },
+			{ "ref": "Starship/Starship-Rock 1/Starship-Rock 1" },
+			{ "ref": "Starship/Starship-Middle Dropship/Starship-Middle Dropship" },
+			{ "ref": "Starship/Starship-Dropdown 2/Starship-Dropdown 2" },
+			{ "ref": "Starship/Starship-Rock 2/Starship-Rock 2" },
+			{ "ref": "Starship/Starship-Rock 3/Starship-Rock 3" },
+			{ "ref": "Starship/Starship-Rock 4/Starship-Rock 4" },
+			{ "ref": "Starship/Starship Boss/Starship Boss" }
+		]
+    }
+]

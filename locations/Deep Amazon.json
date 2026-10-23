@@ -1,0 +1,495 @@
+[
+    {
+        "name": "Deep Amazon",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "deepamazonlevelunlock"
+        ],
+        "children": [
+            {
+                "name": "Deep Amazon-Island Altar",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 95,
+                        "y": 168,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Island Altar",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Top of the Temple",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 709,
+                        "y": 251,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Top of the Temple",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Spawn Ledge",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 1006,
+                        "y": 642,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Spawn Ledge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Waterfall Rock",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 703,
+                        "y": 59,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Waterfall Rock",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Jungle Ruins",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 500,
+                        "y": 383,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Jungle Ruins",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Patrolling Dropship",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 664,
+                        "y": 129,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Patrolling Dropship",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Jungle Village Outskirts",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 321,
+                        "y": 203,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Jungle Village Outskirts",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Field before the Bridge",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 652,
+                        "y": 643,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Field before the Bridge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Temple Climb",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 658,
+                        "y": 248,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Temple Climb",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Mid-Jungle Ditch",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 386,
+                        "y": 330,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Mid-Jungle Ditch",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Village at the Foot of the Hill",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 734,
+                        "y": 613,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Village at the Foot of the Hill",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Jungle Village Warpgate",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 322,
+                        "y": 126,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Jungle Village Warpgate",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Forest before the Bridge",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 566,
+                        "y": 697,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Forest before the Bridge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon-Behind the Temple",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 686,
+                        "y": 159,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon-Behind the Temple",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon Boss",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 690,
+                        "y": 236,
+                        "size": 10,
+                        "shape": "rect"
+                    },
+					{
+                        "map": "Overworld",
+                        "x": 1176,
+                        "y": 294,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Deep Amazon Boss",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon Temple",
+                "children": [
+                    {
+                        "name": "Deep Amazon-Antechamber",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "sections": [
+                            {
+                                "name": "Antechamber",
+                                "clear_as_group": false,
+								"chest_unopened_img": "images/transparent.png",
+								"chest_opened_img": "images/transparent.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deep Amazon-Temple Dead End",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "sections": [
+                            {
+                                "name": "Temple Dead End",
+                                "clear_as_group": false,
+								"chest_unopened_img": "images/transparent.png",
+								"chest_opened_img": "images/transparent.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deep Amazon-Temple Side-Path",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "sections": [
+                            {
+                                "name": "Temple Side-Path",
+                                "clear_as_group": false,
+								"chest_unopened_img": "images/transparent.png",
+								"chest_opened_img": "images/transparent.png"
+                            }
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 679,
+                        "y": 210,
+                        "size": 14,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"ref": "Deep Amazon/Deep Amazon Temple/Deep Amazon-Antechamber/Antechamber"
+					},
+					{
+						"ref": "Deep Amazon/Deep Amazon Temple/Deep Amazon-Temple Dead End/Temple Dead End"
+					},
+					{
+						"ref": "Deep Amazon/Deep Amazon Temple/Deep Amazon-Temple Side-Path/Temple Side-Path"
+					}
+				]
+            },
+            {
+                "name": "Deep Amazon Temple - Highjump",
+                "children": [
+                    {
+                        "name": "Deep Amazon-Antechamber Alcove",
+                        "access_rules": [
+                            "highjump"
+                        ],
+                        "visibility_rules": [],
+                        "sections": [
+                            {
+                                "name": "Antechamber Alcove",
+                                "clear_as_group": false,
+								"chest_unopened_img": "images/transparent.png",
+								"chest_opened_img": "images/transparent.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deep Amazon-Temple Pool",
+                        "access_rules": [
+                            "highjump"
+                        ],
+                        "visibility_rules": [],
+                        "sections": [
+                            {
+                                "name": "Temple Pool",
+                                "clear_as_group": false,
+								"chest_unopened_img": "images/transparent.png",
+								"chest_opened_img": "images/transparent.png"
+                            }
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Deep Amazon",
+                        "x": 703,
+                        "y": 210,
+                        "size": 14,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"ref": "Deep Amazon/Deep Amazon Temple - Highjump/Deep Amazon-Antechamber Alcove/Antechamber Alcove"
+					},
+					{
+						"ref": "Deep Amazon/Deep Amazon Temple - Highjump/Deep Amazon-Temple Pool/Temple Pool"
+					}
+				]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Deep Amazon",
+                "x": 65,
+                "y": 46,
+                "size": 40,
+                "shape": "diamond"
+            },
+			{
+				"map": "Overworld",
+				"x": 85,
+				"y": 294,
+				"size": 40,
+				"shape": "diamond"
+			}
+        ],
+		"sections": [
+			{ "ref": "Deep Amazon/Deep Amazon-Island Altar/Deep Amazon-Island Altar" },
+			{ "ref": "Deep Amazon/Deep Amazon-Top of the Temple/Deep Amazon-Top of the Temple" },
+			{ "ref": "Deep Amazon/Deep Amazon-Spawn Ledge/Deep Amazon-Spawn Ledge" },
+			{ "ref": "Deep Amazon/Deep Amazon-Waterfall Rock/Deep Amazon-Waterfall Rock" },
+			{ "ref": "Deep Amazon/Deep Amazon-Jungle Ruins/Deep Amazon-Jungle Ruins" },
+			{ "ref": "Deep Amazon/Deep Amazon-Patrolling Dropship/Deep Amazon-Patrolling Dropship" },
+			{ "ref": "Deep Amazon/Deep Amazon-Jungle Village Outskirts/Deep Amazon-Jungle Village Outskirts" },
+			{ "ref": "Deep Amazon/Deep Amazon-Field before the Bridge/Deep Amazon-Field before the Bridge" },
+			{ "ref": "Deep Amazon/Deep Amazon-Temple Climb/Deep Amazon-Temple Climb" },
+			{ "ref": "Deep Amazon/Deep Amazon-Mid-Jungle Ditch/Deep Amazon-Mid-Jungle Ditch" },
+			{ "ref": "Deep Amazon/Deep Amazon-Village at the Foot of the Hill/Deep Amazon-Village at the Foot of the Hill" },
+			{ "ref": "Deep Amazon/Deep Amazon-Jungle Village Warpgate/Deep Amazon-Jungle Village Warpgate" },
+			{ "ref": "Deep Amazon/Deep Amazon Temple/Deep Amazon-Temple Dead End/Temple Dead End" },
+			{ "ref": "Deep Amazon/Deep Amazon Temple - Highjump/Deep Amazon-Temple Pool/Temple Pool" },
+			{ "ref": "Deep Amazon/Deep Amazon Temple/Deep Amazon-Temple Side-Path/Temple Side-Path" },
+			{ "ref": "Deep Amazon/Deep Amazon-Forest before the Bridge/Deep Amazon-Forest before the Bridge" },
+			{ "ref": "Deep Amazon/Deep Amazon Temple/Deep Amazon-Antechamber/Antechamber" },
+			{ "ref": "Deep Amazon/Deep Amazon Temple - Highjump/Deep Amazon-Antechamber Alcove/Antechamber Alcove" },
+			{ "ref": "Deep Amazon/Deep Amazon-Behind the Temple/Deep Amazon-Behind the Temple" },
+			{ "ref": "Deep Amazon/Deep Amazon Boss/Deep Amazon Boss" }
+		]
+    }
+]

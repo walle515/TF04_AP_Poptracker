@@ -1,0 +1,427 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "left",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "slipstream",
+								"highjump",
+								"rangefinder",
+								"lookout",
+								"claymore",
+								"failsafe",
+								"flashbang",
+								"hailstorm",
+								"lock-on",
+								"slapshot",
+								"watchdog"
+                            ],
+                            [
+                                "skirmish",
+								"firefight",
+								"aftershock",
+								"sparkjump",
+								"jumpstart",
+								"overwatch",
+								"aurora",
+								"corona",
+								"knockdown",
+								"airburst",
+								"twister"
+                            ],
+                            [
+                                "shockpunch",
+								"discord",
+								"safeguard",
+								"bulletproof",
+								"stronghold",
+								"highgear",
+								"smackdown",
+								"shieldwall",
+								"hawkeye",
+								"deflector",
+								"fullspeed"
+                            ],
+                            [
+                                "pressurepoint",
+								"shepherd",
+								"kickback",
+								"covert",
+								"tractor",
+								"buildup",
+								"comeback"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+	"shared_level_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "left",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 128,
+                        "rows": [
+                            [
+                                "amazonlevelunlock",
+								"antarcticalevelunlock"
+                            ],
+                            [
+								"deepamazonlevelunlock",
+								"midatlanticlevelunlock"
+                            ],
+                            [
+                                "alaskalevelunlock",
+								"starshiplevelunlock"
+                            ],
+                            [
+								"pacificislandlevelunlock",
+								"unicronlevelunlock"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+	"shared_datacon_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "left",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "datacon(characterenergon)",
+                                "datacon(rendersautobots2)",
+								"datacon(cardartwork)",
+								"datacon(decepticlonesubmission)",
+								"datacon(leclezio1)",
+								"datacon(rendersdecepticons2)",
+								"datacon(conceptartdecepticlone)",
+								"datacon(leclezio2)",
+								"datacon(tvseriesthememusic)",
+								"datacon(levelstoryboardsamazon)",
+								"datacon(artpostcards)",
+								"datacon(instructionsheetoptimus)",
+								"datacon(conceptartautobots)",
+								"datacon(moviestills6)",
+								"datacon(rendersdecepticon)",
+								"datacon(themeregurgitator)"
+                            ],
+                            [
+                                "datacon(minicomic1)",
+								"datacon(minicomic2)",
+								"datacon(minicomic3)",
+								"datacon(minicomic4)",
+								"datacon(productionartamazon)",
+								"datacon(productionartantarctica)",
+								"datacon(productionartdeepamazon)",
+                                "datacon(productionartmidatlantic)",
+                                "datacon(productionartalaska)",
+                                "datacon(productionartstarship)",
+								"datacon(prodcutionartpacificisland)",
+                                "datacon(productionartautobothq)",
+                                "datacon(rendersautobots)",
+                                "datacon(rendersdecepticlone)",
+								"datacon(rendersminicons)",
+								"datacon(toyproductionhotshot)"
+                            ],
+                            [
+								"datacon(toyproductionoptimus)",
+								"datacon(toyproductionredalert)",
+								"datacon(toyproductionminicons)",
+								"datacon(toyproductioncyclonus)",
+								"datacon(toyproductionstarscream)",
+								"datacon(toyproductiontidalwave)",
+								"datacon(toyproductionmegatron)",
+								"datacon(rendersautobots3)",
+								"datacon(cgproductionsequence2)",
+								"datacon(cgproductionsequence)",
+								"datacon(instructionsheetmegatron)",
+								"datacon(instructionsheethotshot)",
+								"datacon(rendersdecepticlone2)",
+                                "datacon(rendersdecepticlone3)",
+                                "datacon(rendersdecepticlone4)",
+								"datacon(tvspot1)"
+                            ],
+                            [
+								"datacon(tvspot2)",
+								"datacon(tvspot3)",
+								"datacon(tvspot4)",
+								"datacon(tvspot5)",
+								"datacon(instructionsheetredalert)",
+								"datacon(moviestills1)",
+								"datacon(moviestills2)",
+								"datacon(moviestills3)",
+								"datacon(moviestills4)",
+                                "datacon(moviestills5)",
+								"datacon(dropbox_wishbone)",
+                                "datacon(themedropbox)",
+								"datacon(launchphotos)",
+                                "datacon(themeorchestral)"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+	"shared_goals": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "left",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "minicon_counter"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+	"broadcast_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "left",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "slipstream",
+								"highjump",
+								"rangefinder",
+								"lookout",
+								"claymore",
+								"failsafe"
+							],
+							[
+								"flashbang",
+								"hailstorm",
+								"lock-on",
+								"slapshot",
+								"watchdog"
+                            ],
+                            [
+                                "skirmish",
+								"firefight",
+								"aftershock",
+								"sparkjump",
+								"jumpstart",
+								"overwatch"
+							],
+							[
+								"aurora",
+								"corona",
+								"knockdown",
+								"airburst",
+								"twister",
+								"shockpunch"
+                            ],
+                            [
+								"discord",
+								"safeguard",
+								"bulletproof",
+								"stronghold",
+								"highgear",
+								"smackdown"
+							],
+							[
+								"shieldwall",
+								"hawkeye",
+								"deflector",
+								"fullspeed",
+                                "pressurepoint",
+								"shepherd"
+                            ],
+                            [
+								"kickback",
+								"covert",
+								"tractor",
+								"buildup",
+								"comeback"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+	"broadcast_datacon_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "left",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "datacon(characterenergon)",
+                                "datacon(rendersautobots2)",
+								"datacon(cardartwork)",
+								"datacon(decepticlonesubmission)",
+								"datacon(leclezio1)",
+								"datacon(rendersdecepticons2)"
+							],
+							[
+								"datacon(conceptartdecepticlone)",
+								"datacon(leclezio2)",
+								"datacon(tvseriesthememusic)",
+								"datacon(levelstoryboardsamazon)",
+								"datacon(artpostcards)",
+								"datacon(instructionsheetoptimus)"
+							],
+							[
+								"datacon(conceptartautobots)",
+								"datacon(moviestills6)",
+								"datacon(rendersdecepticon)",
+								"datacon(themeregurgitator)",
+                                "datacon(minicomic1)",
+								"datacon(minicomic2)"
+                            ],
+                            [
+								"datacon(minicomic3)",
+								"datacon(minicomic4)",
+								"datacon(productionartamazon)",
+								"datacon(productionartantarctica)",
+								"datacon(productionartdeepamazon)",
+                                "datacon(productionartmidatlantic)"
+							],
+							[
+                                "datacon(productionartalaska)",
+                                "datacon(productionartstarship)",
+								"datacon(prodcutionartpacificisland)",
+                                "datacon(productionartautobothq)",
+                                "datacon(rendersautobots)",
+                                "datacon(rendersdecepticlone)"
+							],
+							[
+								"datacon(rendersminicons)",
+								"datacon(toyproductionhotshot)",
+								"datacon(toyproductionoptimus)",
+								"datacon(toyproductionredalert)",
+								"datacon(toyproductionminicons)",
+								"datacon(toyproductioncyclonus)"
+                            ],
+                            [
+								"datacon(toyproductionstarscream)",
+								"datacon(toyproductiontidalwave)",
+								"datacon(toyproductionmegatron)",
+								"datacon(rendersautobots3)",
+								"datacon(cgproductionsequence2)",
+								"datacon(cgproductionsequence)"
+							],
+							[
+								"datacon(instructionsheetmegatron)",
+								"datacon(instructionsheethotshot)",
+								"datacon(rendersdecepticlone2)",
+                                "datacon(rendersdecepticlone3)",
+                                "datacon(rendersdecepticlone4)",
+								"datacon(tvspot1)"
+                            ],
+                            [
+								"datacon(tvspot2)",
+								"datacon(tvspot3)",
+								"datacon(tvspot4)",
+								"datacon(tvspot5)",
+								"datacon(instructionsheetredalert)",
+								"datacon(moviestills1)"
+							],
+							[
+								"datacon(moviestills2)",
+								"datacon(moviestills3)",
+								"datacon(moviestills4)",
+                                "datacon(moviestills5)",
+								"datacon(dropbox_wishbone)",
+                                "datacon(themedropbox)"
+							],
+							[
+								"datacon(launchphotos)",
+                                "datacon(themeorchestral)"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

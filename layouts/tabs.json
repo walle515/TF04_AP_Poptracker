@@ -1,0 +1,79 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "HQ",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Overworld"
+                    ]
+                }
+            },
+            {
+                "title": "Amazon",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Amazon"
+                    ]
+                }
+            },
+            {
+                "title": "Antarctica",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Antarctica"
+                    ]
+                }
+            },
+            {
+                "title": "Deep Amazon",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Deep Amazon"
+                    ]
+                }
+            },
+            {
+                "title": "Mid Atlantic",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Mid Atlantic"
+                    ]
+                }
+            },
+            {
+                "title": "Alaska",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Alaska"
+                    ]
+                }
+            },
+            {
+                "title": "Starhsip",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Starship"
+                    ]
+                }
+            },
+            {
+                "title": "Pacific Island",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Pacific Island"
+                    ]
+                }
+            }
+        ]
+    }
+}

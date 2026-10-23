@@ -1,0 +1,31 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "margin": 5,
+        "content": [
+            {
+                "type": "group",
+                "header": "Goal Settings",
+                "header_background": "#3e4b57",
+				"h_alighment": "stretch",
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "5,1,5,5",
+                        "item": "autofill_settings"
+                    },
+					{
+						"type": "item",
+						"margin": "5,1,5,5",
+						"item": "offline_goal"
+					},
+					{
+						"type": "item",
+						"margin": "5,1,5,5",
+						"item": "offline_minicon_count"
+					}
+                ]
+            }
+        ]
+    }
+}

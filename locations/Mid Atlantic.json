@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Mid Atlantic",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "midatlanticlevelunlock"
+        ],
+        "children": [
+            {
+                "name": "Mid Atlantic-Vanilla Progression",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Mid Atlantic",
+                        "x": 738,
+                        "y": 283,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Mid Atlantic-Vanilla Progression",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Mid Atlantic-Distant Island",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Mid Atlantic",
+                        "x": 793,
+                        "y": 37,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Mid Atlantic-Distant Island",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Mid Atlantic-Pinnacle Rock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Mid Atlantic",
+                        "x": 232,
+                        "y": 214,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Mid Atlantic-Pinnacle Rock",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Mid Atlantic-Atoll",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Mid Atlantic",
+                        "x": 601,
+                        "y": 117,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Mid Atlantic-Atoll",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Mid Atlantic Boss",
+                "access_rules": [
+                    "slipstream,[rangefinder]",
+                    "slipstream,[lookout]"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Mid Atlantic",
+                        "x": 108,
+                        "y": 87,
+                        "size": 10,
+                        "shape": "rect"
+                    },
+					{
+                        "map": "Overworld",
+                        "x": 1176,
+                        "y": 392,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Mid Atlantic Boss",
+						"item_count": 1,
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Mid Atlantic",
+                "x": 153,
+                "y": 28,
+                "size": 30,
+                "shape": "diamond"
+            },
+			{
+				"map": "Overworld",
+				"x": 85,
+				"y": 392,
+				"size": 40,
+				"shape": "diamond"
+			}
+        ],
+		"sections": [
+			{
+				"ref": "Mid Atlantic/Mid Atlantic-Vanilla Progression/Mid Atlantic-Vanilla Progression"
+			},
+			{
+				"ref": "Mid Atlantic/Mid Atlantic-Distant Island/Mid Atlantic-Distant Island"
+			},
+			{
+				"ref": "Mid Atlantic/Mid Atlantic-Pinnacle Rock/Mid Atlantic-Pinnacle Rock"
+			},
+			{
+				"ref": "Mid Atlantic/Mid Atlantic-Atoll/Mid Atlantic-Atoll"
+			},
+			{
+				"ref": "Mid Atlantic/Mid Atlantic Boss/Mid Atlantic Boss"
+			}
+		]
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Beginner Check",
+        "overlay_background": "#000000",
+		"visibility_rules":[
+			
+		],
+		"children":[
+			{
+				"name": "Beginner Location",
+				"visibility_rules": ["beginner_location_enabled"],
+				"map_locations": [
+					{
+						"map": "Amazon",
+						"x": 314,
+						"y": 682,
+						"size": 10,
+						"shape": "rect"
+					},
+					{
+						"map": "Antarctica",
+						"x": 1407,
+						"y": 575,
+						"size": 10,
+						"shape": "rect"
+					},
+					{
+						"map": "Deep Amazon",
+						"x": 959,
+						"y": 618,
+						"size": 10,
+						"shape": "rect"
+					},
+					{
+						"map": "Mid Atlantic",
+						"x": 366,
+						"y": 460,
+						"size": 10,
+						"shape": "rect"
+					},
+					{
+						"map": "Alaska",
+						"x": 355,
+						"y": 335,
+						"size": 10,
+						"shape": "rect"
+					},
+					{
+						"map": "Starship",
+						"x": 80,
+						"y": 77,
+						"size": 10,
+						"shape": "rect"
+					},
+					{
+						"map": "Pacific Island",
+						"x": 511,
+						"y": 802,
+						"size": 10,
+						"shape": "rect"
+					}
+				],
+				"sections": [
+					{
+						"name": "Beginner Location",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+			}
+		]
+    }
+]

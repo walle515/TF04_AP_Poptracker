@@ -1,0 +1,598 @@
+[
+    {
+        "name": "Pacific Island",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "pacificislandlevelunlock"
+        ],
+        "children": [
+            {
+                "name": "Pacific Island-Small Silo",
+                "access_rules": [
+                    "slipstream,claymore",
+                    "slipstream,failsafe",
+                    "slipstream,flashbang",
+                    "slipstream,hailstorm",
+                    "slipstream,lock-on",
+                    "slipstream,watchdog",
+                    "slipstream,slapshot"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 755,
+                        "y": 223,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Small Silo",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Moai",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 608,
+                        "y": 829,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Moai",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Back of the Volcano",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 871,
+                        "y": 423,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Back of the Volcano",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Volcano Path",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 652,
+                        "y": 546,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Volcano Path",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Lighthouse",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 97,
+                        "y": 607,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Lighthouse",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Waterfall Climb",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 411,
+                        "y": 400,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Waterfall Climb",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Stronghold Ledge",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 847,
+                        "y": 242,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Stronghold Ledge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-High Volcano Ledge",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 782,
+                        "y": 349,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-High Volcano Ledge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Forest Basin",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 495,
+                        "y": 554,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Forest Basin",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Hidden Ledge",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 266,
+                        "y": 39,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Hidden Ledge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Above the Waterfall",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 536,
+                        "y": 402,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Above the Waterfall",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Large Silo",
+                "access_rules": [
+                    "slipstream,claymore",
+                    "slipstream,failsafe",
+                    "slipstream,flashbang",
+                    "slipstream,hailstorm",
+                    "slipstream,lock-on",
+                    "slipstream,watchdog",
+                    "slipstream,slapshot"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 755,
+                        "y": 202,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Large Silo",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Small Island",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 938,
+                        "y": 45,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Small Island",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 1",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 335,
+                        "y": 267,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 1",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 4",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 181,
+                        "y": 497,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 4",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 5",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 156,
+                        "y": 534,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 5",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 6",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 288,
+                        "y": 114,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 6",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 7",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 280,
+                        "y": 128,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 7",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 8",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 625,
+                        "y": 725,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 8",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 9",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 600,
+                        "y": 668,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 9",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 2",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 231,
+                        "y": 494,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 2",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island-Bunker 3",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 610,
+                        "y": 626,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island-Bunker 3",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Pacific Island Boss",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Pacific Island",
+                        "x": 773,
+                        "y": 496,
+                        "size": 10,
+                        "shape": "rect"
+                    },
+					{
+                        "map": "Overworld",
+                        "x": 1176,
+                        "y": 686,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Pacific Island Boss",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Pacific Island",
+                "x": 47,
+                "y": 45,
+                "size": 40,
+                "shape": "diamond"
+            },
+			{
+				"map": "Overworld",
+				"x": 85,
+				"y": 686,
+				"size": 40,
+				"shape": "diamond"
+			}
+        ],
+		"sections": [
+			{ "ref": "Pacific Island/Pacific Island-Small Silo/Pacific Island-Small Silo" },
+			{ "ref": "Pacific Island/Pacific Island-Moai/Pacific Island-Moai" },
+			{ "ref": "Pacific Island/Pacific Island-Back of the Volcano/Pacific Island-Back of the Volcano" },
+			{ "ref": "Pacific Island/Pacific Island-Volcano Path/Pacific Island-Volcano Path" },
+			{ "ref": "Pacific Island/Pacific Island-Lighthouse/Pacific Island-Lighthouse" },
+			{ "ref": "Pacific Island/Pacific Island-Waterfall Climb/Pacific Island-Waterfall Climb" },
+			{ "ref": "Pacific Island/Pacific Island-Stronghold Ledge/Pacific Island-Stronghold Ledge" },
+			{ "ref": "Pacific Island/Pacific Island-High Volcano Ledge/Pacific Island-High Volcano Ledge" },
+			{ "ref": "Pacific Island/Pacific Island-Forest Basin/Pacific Island-Forest Basin" },
+			{ "ref": "Pacific Island/Pacific Island-Hidden Ledge/Pacific Island-Hidden Ledge" },
+			{ "ref": "Pacific Island/Pacific Island-Above the Waterfall/Pacific Island-Above the Waterfall" },
+			{ "ref": "Pacific Island/Pacific Island-Large Silo/Pacific Island-Large Silo" },
+			{ "ref": "Pacific Island/Pacific Island-Small Island/Pacific Island-Small Island" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 1/Pacific Island-Bunker 1" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 4/Pacific Island-Bunker 4" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 5/Pacific Island-Bunker 5" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 6/Pacific Island-Bunker 6" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 7/Pacific Island-Bunker 7" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 8/Pacific Island-Bunker 8" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 9/Pacific Island-Bunker 9" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 2/Pacific Island-Bunker 2" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker 3/Pacific Island-Bunker 3" },
+			{ "ref": "Pacific Island/Pacific Island Boss/Pacific Island Boss" }
+		]
+    }
+]

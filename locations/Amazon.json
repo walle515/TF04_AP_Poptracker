@@ -1,0 +1,627 @@
+[
+    {
+        "name": "Amazon",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "amazonlevelunlock"
+        ],
+        "children": [
+            {
+                "name": "Amazon-Claymore Cave",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 678,
+                        "y": 516,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Claymore Cave",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Spire",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 634,
+                        "y": 473,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Spire",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Neighboring Mountain",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 577,
+                        "y": 432,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Neighboring Mountain",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Ravine Cliff Cave",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 758,
+                        "y": 700,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Ravine Cliff Cave",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Pressurepoints Corner",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 181,
+                        "y": 429,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Pressurepoints Corner",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Foot of the Mountain",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 748,
+                        "y": 516,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Foot of the Mountain",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Mountain Ruins",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 883,
+                        "y": 593,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Mountain Ruins",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Before the Waterfall Bridge",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 486,
+                        "y": 276,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Before the Waterfall Bridge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Spidertank Triplets",
+                "access_rules": [
+                    "slipstream",
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 594,
+                        "y": 134,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Spidertank Triplets",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Ruined Temple Alcove",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 292,
+                        "y": 290,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Ruined Temple Alcove",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Forest before the Bridge",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 465,
+                        "y": 210,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Forest before the Bridge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Ruined Temple Ledge",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 350,
+                        "y": 306,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Ruined Temple Ledge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Forest before Firefight",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 580,
+                        "y": 247,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Forest before Firefight",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Tutorial Minicon",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 289,
+                        "y": 560,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Tutorial Minicon",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Ruined Temple Courtyard",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 311,
+                        "y": 324,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Ruined Temple Courtyard",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Light Unit Party",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 426,
+                        "y": 137,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Light Unit Party",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Hidden Cave",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 660,
+                        "y": 701,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Hidden Cave",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Riverside Ledge",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 703,
+                        "y": 385,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Riverside Ledge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Waterfall Base",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 446,
+                        "y": 395,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Waterfall Base",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Forest after the Bridge",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 563,
+                        "y": 348,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Forest after the Bridge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Surprise",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 832,
+                        "y": 413,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Surprise",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Forgettable Location",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 877,
+                        "y": 499,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Forgettable Location",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Medium Unit Party",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 499,
+                        "y": 518,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Medium Unit Party",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Forest Across from the Basin 1",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 136,
+                        "y": 628,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Forest Across from the Basin 1",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon-Forest Across from the Basin 2",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 108,
+                        "y": 516,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon-Forest Across from the Basin 2",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Amazon Boss",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Amazon",
+                        "x": 922,
+                        "y": 581,
+                        "size": 10,
+                        "shape": "rect"
+                    },
+					{
+                        "map": "Overworld",
+                        "x": 1176,
+                        "y": 98,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Amazon Boss",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Amazon",
+                "x": 92,
+                "y": 77,
+                "size": 40,
+                "shape": "diamond"
+            },
+			{
+				"map": "Overworld",
+				"x": 85,
+				"y": 98,
+				"size": 40,
+				"shape": "diamond"
+			}
+        ],
+		"sections": [
+			{ "ref": "Amazon/Amazon-Claymore Cave/Amazon-Claymore Cave" },
+			{ "ref": "Amazon/Amazon-Spire/Amazon-Spire" },
+			{ "ref": "Amazon/Amazon-Neighboring Mountain/Amazon-Neighboring Mountain" },
+			{ "ref": "Amazon/Amazon-Ravine Cliff Cave/Amazon-Ravine Cliff Cave" },
+			{ "ref": "Amazon/Amazon-Pressurepoints Corner/Amazon-Pressurepoints Corner" },
+			{ "ref": "Amazon/Amazon-Foot of the Mountain/Amazon-Foot of the Mountain" },
+			{ "ref": "Amazon/Amazon-Mountain Ruins/Amazon-Mountain Ruins" },
+			{ "ref": "Amazon/Amazon-Before the Waterfall Bridge/Amazon-Before the Waterfall Bridge" },
+			{ "ref": "Amazon/Amazon-Spidertank Triplets/Amazon-Spidertank Triplets" },
+			{ "ref": "Amazon/Amazon-Ruined Temple Alcove/Amazon-Ruined Temple Alcove" },
+			{ "ref": "Amazon/Amazon-Forest before the Bridge/Amazon-Forest before the Bridge" },
+			{ "ref": "Amazon/Amazon-Ruined Temple Ledge/Amazon-Ruined Temple Ledge" },
+			{ "ref": "Amazon/Amazon-Forest before Firefight/Amazon-Forest before Firefight" },
+			{ "ref": "Amazon/Amazon-Tutorial Minicon/Amazon-Tutorial Minicon" },
+			{ "ref": "Amazon/Amazon-Ruined Temple Courtyard/Amazon-Ruined Temple Courtyard" },
+			{ "ref": "Amazon/Amazon-Light Unit Party/Amazon-Light Unit Party" },
+			{ "ref": "Amazon/Amazon-Hidden Cave/Amazon-Hidden Cave" },
+			{ "ref": "Amazon/Amazon-Riverside Ledge/Amazon-Riverside Ledge" },
+			{ "ref": "Amazon/Amazon-Waterfall Base/Amazon-Waterfall Base" },
+			{ "ref": "Amazon/Amazon-Forest after the Bridge/Amazon-Forest after the Bridge" },
+			{ "ref": "Amazon/Amazon-Surprise/Amazon-Surprise" },
+			{ "ref": "Amazon/Amazon-Forgettable Location/Amazon-Forgettable Location" },
+			{ "ref": "Amazon/Amazon-Medium Unit Party/Amazon-Medium Unit Party" },
+			{ "ref": "Amazon/Amazon-Forest Across from the Basin 1/Amazon-Forest Across from the Basin 1" },
+			{ "ref": "Amazon/Amazon-Forest Across from the Basin 2/Amazon-Forest Across from the Basin 2" },
+			{ "ref": "Amazon/Amazon Boss/Amazon Boss" }
+		]
+    }
+]

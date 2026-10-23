@@ -1,0 +1,50 @@
+[
+    
+    {
+        "name": "Overworld",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/HQ.png"
+    },
+	{
+        "name": "Amazon",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Amazon.png"
+    },
+    {
+        "name": "Antarctica",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Antarctica.png"
+    },
+    {
+        "name": "Deep Amazon",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Deep Amazon.png"
+    },
+    {
+        "name": "Mid Atlantic",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Mid Atlantic.png"
+    },{
+        "name": "Alaska",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Alaska.png"
+    },{
+        "name": "Starship",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Starship.png"
+    },
+    {
+        "name": "Pacific Island",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Pacific Island.png"
+    }
+    
+]

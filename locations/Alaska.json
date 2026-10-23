@@ -1,0 +1,426 @@
+[
+    {
+        "name": "Alaska",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "alaskalevelunlock"
+        ],
+        "children": [
+            {
+                "name": "Alaska-Mountaintop",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 1143,
+                        "y": 298,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Mountaintop",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Small Forest",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 823,
+                        "y": 330,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Small Forest",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Caves Far Ledge",
+                "access_rules": [
+                    "highjump,slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 1487,
+                        "y": 200,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Caves Far Ledge",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Caves Right Fork",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 1360,
+                        "y": 505,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Caves Right Fork",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Caves Left Fork",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 1557,
+                        "y": 327,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Caves Left Fork",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Caves Pool",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 1573,
+                        "y": 755,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Caves Pool",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Along the Canyon",
+                "access_rules": [
+                    "slipstream"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 813,
+                        "y": 383,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Along the Canyon",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Ocean Overlook",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 332,
+                        "y": 581,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Ocean Overlook",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Hidden Hill",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 726,
+                        "y": 636,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Hidden Hill",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Canyon Clearing Ledge 1",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 904,
+                        "y": 442,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Canyon Clearing Ledge 1",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Battlefield",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 1078,
+                        "y": 381,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Battlefield",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Canyon Clearing Ledge 2",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 885,
+                        "y": 457,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Canyon Clearing Ledge 2",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Dropship Island",
+                "access_rules": [
+                    "[slipstream]"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 86,
+                        "y": 354,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Dropship Island",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Peninsula",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 236,
+                        "y": 622,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Peninsula",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Escape",
+                "access_rules": [
+                    "highjump"
+                ],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 1176,
+                        "y": 234,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Escape",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska-Hillside",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 534,
+                        "y": 175,
+                        "size": 10,
+                        "shape": "rect"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska-Hillside",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            },
+            {
+                "name": "Alaska Complete",
+                "access_rules": [],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "Alaska",
+                        "x": 1152,
+                        "y": 251,
+                        "size": 10,
+                        "shape": "rect"
+                    },
+					{
+                        "map": "Overworld",
+                        "x": 1176,
+                        "y": 490,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ],
+				"sections": [
+					{
+						"name": "Alaska Complete",
+						"chest_unopened_img": "images/transparent.png",
+						"chest_opened_img": "images/transparent.png"
+					}
+				]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Alaska",
+                "x": 61,
+                "y": 110,
+                "size": 40,
+                "shape": "diamond"
+            },
+			{
+				"map": "Overworld",
+				"x": 85,
+				"y": 490,
+				"size": 40,
+				"shape": "diamond"
+			}
+        ],
+		"sections": [
+			{ "ref": "Alaska/Alaska-Mountaintop/Alaska-Mountaintop" },
+			{ "ref": "Alaska/Alaska-Small Forest/Alaska-Small Forest" },
+			{ "ref": "Alaska/Alaska-Caves Far Ledge/Alaska-Caves Far Ledge" },
+			{ "ref": "Alaska/Alaska-Caves Right Fork/Alaska-Caves Right Fork" },
+			{ "ref": "Alaska/Alaska-Caves Left Fork/Alaska-Caves Left Fork" },
+			{ "ref": "Alaska/Alaska-Caves Pool/Alaska-Caves Pool" },
+			{ "ref": "Alaska/Alaska-Along the Canyon/Alaska-Along the Canyon" },
+			{ "ref": "Alaska/Alaska-Ocean Overlook/Alaska-Ocean Overlook" },
+			{ "ref": "Alaska/Alaska-Hidden Hill/Alaska-Hidden Hill" },
+			{ "ref": "Alaska/Alaska-Canyon Clearing Ledge 1/Alaska-Canyon Clearing Ledge 1" },
+			{ "ref": "Alaska/Alaska-Battlefield/Alaska-Battlefield" },
+			{ "ref": "Alaska/Alaska-Canyon Clearing Ledge 2/Alaska-Canyon Clearing Ledge 2" },
+			{ "ref": "Alaska/Alaska-Dropship Island/Alaska-Dropship Island" },
+			{ "ref": "Alaska/Alaska-Peninsula/Alaska-Peninsula" },
+			{ "ref": "Alaska/Alaska-Escape/Alaska-Escape" },
+			{ "ref": "Alaska/Alaska-Hillside/Alaska-Hillside" },
+			{ "ref": "Alaska/Alaska Complete/Alaska Complete" }
+		]
+    }
+]

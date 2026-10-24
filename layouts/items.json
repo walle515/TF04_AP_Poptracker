@@ -130,7 +130,7 @@
                         "item_h_alignment": "left",
                         "item_v_alignment": "center",
                         "item_height": 48,
-                        "item_width": 48,
+                        "item_width": 32,
                         "rows": [
                             [
                                 "datacon(characterenergon)",

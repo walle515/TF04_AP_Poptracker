@@ -9,8 +9,7 @@
             {
                 "name": "Antarctica-Rock of Power",
                 "access_rules": [
-					"highjump",
-					"[$ReturnTrue]"
+					"[highjump]"
 				],
                 "visibility_rules": [],
                 "map_locations": [
@@ -63,8 +62,8 @@
                 "name": "Antarctica-Midfield Beacon",
                 "access_rules": [
                     "slipstream",
-                    "[flashbang]",
-                    "[hailstorm]"
+                    "[slipstream],flashbang",
+                    "[slipstream],hailstorm"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -330,7 +329,7 @@
                 "name": "Antarctica-Lonely Island",
                 "access_rules": [
                     "slipstream",
-                    "[hailstorm]"
+                    "[slipstream],hailstorm"
                 ],
                 "visibility_rules": [],
                 "map_locations": [

@@ -85,8 +85,8 @@
                 "name": "Pacific Island-Volcano Path",
                 "access_rules": [
                     "slipstream",
-					"[highgear]",
-					"[fullspeed]"
+					"[slipstream],highgear",
+					"[slipstream],fullspeed"
                 ],
                 "visibility_rules": [],
                 "map_locations": [

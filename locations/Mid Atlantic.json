@@ -95,9 +95,8 @@
             {
                 "name": "Mid Atlantic Boss",
                 "access_rules": [
-                    "slipstream,rangefinder",
-                    "slipstream,lookout",
-					"[slipstream]"
+                    "slipstream,[rangefinder]",
+                    "slipstream,[lookout]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [

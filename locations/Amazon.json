@@ -55,8 +55,7 @@
             {
                 "name": "Amazon-Neighboring Mountain",
                 "access_rules": [
-                    "slipstream",
-					"[$ReturnTrue]"
+                    "[slipstream]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -79,8 +78,7 @@
             {
                 "name": "Amazon-Ravine Cliff Cave",
                 "access_rules": [
-                    "slipstream",
-					"[$ReturnTrue]"
+                    "[slipstream]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -189,8 +187,10 @@
                 "access_rules": [
                     "slipstream",
                     "highjump",
-					"[highgear]",
-					"[fullspeed]"
+					"[slipstream],highgear",
+					"[highjump],highgear",
+					"[slipstream],fullspeed",
+					"[highjump],fullspeed"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -444,8 +444,7 @@
             {
                 "name": "Amazon-Surprise",
                 "access_rules": [
-                    "slipstream",
-					"[$ReturnTrue]"
+                    "[slipstream]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -468,8 +467,7 @@
             {
                 "name": "Amazon-Forgettable Location",
                 "access_rules": [
-                    "slipstream",
-					"[$ReturnTrue]"
+                    "[slipstream]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -492,8 +490,7 @@
             {
                 "name": "Amazon-Medium Unit Party",
                 "access_rules": [
-                    "slipstream",
-					"[$ReturnTrue]"
+                    "[slipstream]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -516,8 +513,7 @@
             {
                 "name": "Amazon-Forest Across from the Basin 1",
                 "access_rules": [
-                    "slipstream",
-					"[$ReturnTrue]"
+                    "[slipstream]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -540,8 +536,7 @@
             {
                 "name": "Amazon-Forest Across from the Basin 2",
                 "access_rules": [
-                    "slipstream",
-					"[$ReturnTrue]"
+                    "[slipstream]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [

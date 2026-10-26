@@ -190,7 +190,7 @@ end
 
 -- Returns true if Archipelago reports this location as checked.
 local function IsLocationChecked(location_id)
-	for_, checked_id in pairs(Archipelago.CheckedLocations) do
+	for _, checked_id in pairs(Archipelago.CheckedLocations) do
 		if checked_id == location_id then
 			return true
 		end
@@ -223,9 +223,10 @@ local function UpdateBossLocation(location_id)
 	end
 
 	local should_be_checked =
-		IsBossLocationChecked(location_id)
+		IsLocationChecked(location_id)
 		and BOSS_STATES[boss_index] == true
-
+		
+	
 	for _, location_code in pairs(location_array) do
 		if type(location_code) == "string"
 			and location_code:sub(1, 1) == "@" then
@@ -440,8 +441,7 @@ function OnClear(slot_data)
 
 		for boss_index = 0, 6 do
 			local key = string.format(
-				"tf04_%s_%s_%s_Boss_%d",
-				tostring(Archipelago.Seed),
+				"tf04_%s_%s_Boss_%d",
 				tostring(Archipelago.TeamNumber),
 				tostring(Archipelago.PlayerNumber),
 				boss_index
@@ -455,6 +455,7 @@ function OnClear(slot_data)
 		end
 
 		-- Subscribe to changes and retrieve the current saved values.
+		
 		Archipelago:SetNotify(boss_keys)
 		Archipelago:Get(boss_keys)
 		
@@ -624,6 +625,7 @@ end
 function OnNotify(key, value, old_value)
     print("OnNotify", key, value, old_value)
 	
+	
 	 -- Handle live boss DataStorage updates.
     local boss_index = BOSS_STORAGE_KEYS[key]
     if boss_index ~= nil then
@@ -658,6 +660,7 @@ end
 ---@param key string Name of the key that was used to send the message
 ---@param value table<integer, APHintMessage>
 function OnNotifyLaunch(key, value)
+	
 	-- Handle the initial boss values returned by Archipelago:Get().
     local boss_index = BOSS_STORAGE_KEYS[key]
 

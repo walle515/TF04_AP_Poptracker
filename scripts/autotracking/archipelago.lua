@@ -35,7 +35,26 @@ Troll_Lookup = {
 }
 
 
-
+BOSS_STATES = {
+	[0] = false,
+	[1] = false,
+    [2] = false,
+    [3] = false,
+    [4] = false,
+    [5] = false,
+    [6] = false
+}
+BOSS_LOCATION_TO_INDEX = {
+    [9001] = 0, -- Amazon Boss
+    [9002] = 1, -- Antarctica Boss
+    [9003] = 2, -- Deep Amazon Boss
+    [9004] = 3, -- Mid Atlantic Boss
+    [9005] = 4, -- Alaska Complete
+    [9006] = 5, -- Starship Boss
+    [9007] = 6, -- Pacific Island Boss
+}
+BOSS_STORAGE_KEYS = {}
+BOSS_STATES_RECEIVED = {}
 
 
 
@@ -169,6 +188,80 @@ local function LocationUpdate(location_obj, custom_storage_item, location_id, re
 end
 
 
+-- Returns true if Archipelago reports this location as checked.
+local function IsLocationChecked(location_id)
+	for_, checked_id in pairs(Archipelago.CheckedLocations) do
+		if checked_id == location_id then
+			return true
+		end
+	end
+	return false
+end
+
+-- Updates one boss location using both the checked-location ID
+-- and the corresponding boolean received from DataStorage.
+local function UpdateBossLocation(location_id)
+	-- Only use boss server data when the goal is Bosses.
+    if not SLOT_DATA or tonumber(SLOT_DATA.goal_option) ~= 1 then
+        return
+    end
+	
+	local boss_index = BOSS_LOCATION_TO_INDEX[location_id]
+
+	if boss_index == nil then
+		return
+	end
+
+	-- Do not update the location until its server value has arrived.
+	if not BOSS_STATES_RECEIVED[boss_index] then
+		return
+	end
+
+	local location_array = LOCATION_MAPPING[location_id]
+	if not location_array then
+		return
+	end
+
+	local should_be_checked =
+		IsBossLocationChecked(location_id)
+		and BOSS_STATES[boss_index] == true
+
+	for _, location_code in pairs(location_array) do
+		if type(location_code) == "string"
+			and location_code:sub(1, 1) == "@" then
+
+			local location_obj =
+				Tracker:FindObjectForCode(location_code)
+
+			if location_obj then
+				if should_be_checked then
+					-- Boss defeated AND location sent.
+					location_obj.AvailableChestCount =
+						math.max(0, location_obj.ChestCount - 1)
+				else
+					-- Either the location was not sent,
+					-- or the server says the boss is not defeated.
+					location_obj.AvailableChestCount =
+						location_obj.ChestCount
+				end
+			end
+		end
+	end
+
+	UpdateBossesBeaten()
+end
+
+
+-- Reconcile every boss location after initial values arrive.
+local function UpdateAllBossLocations()
+	for location_id, _ in pairs(BOSS_LOCATION_TO_INDEX) do
+		UpdateBossLocation(location_id)
+	end
+
+	ForceUpdate()
+end
+
+
 --- Function to prepare custom LuaItems for caching, check for mischieve/traps, subscribe to datastorage
 local function PreOnClear()
     PLAYER_ID = Archipelago.PlayerNumber or -1
@@ -233,6 +326,15 @@ end
 ---@param slot_data? table Slotdata send from AP server for the specific user/slot
 function OnClear(slot_data)
     MANUAL_CHECKED = false
+	
+	-- Clear any boss values from the previous connection.
+    for boss_index = 0, 6 do
+        BOSS_STATES[boss_index] = false
+        BOSS_STATES_RECEIVED[boss_index] = false
+    end
+
+    BOSS_STORAGE_KEYS = {}
+	
     local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
     if custom_storage_item == nil then
         CreateLuaManualStorageItem("manual_location_storage")
@@ -332,7 +434,30 @@ function OnClear(slot_data)
         for _, value in pairs(Archipelago.CheckedLocations) do
             table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
         end
+		
+		-- Subscribe to all seven boss values.
+		local boss_keys = {}
 
+		for boss_index = 0, 6 do
+			local key = string.format(
+				"tf04_%s_%s_%s_Boss_%d",
+				tostring(Archipelago.Seed),
+				tostring(Archipelago.TeamNumber),
+				tostring(Archipelago.PlayerNumber),
+				boss_index
+			)
+
+			BOSS_STORAGE_KEYS[key] = boss_index
+			BOSS_STATES[boss_index] = false
+			BOSS_STATES_RECEIVED[boss_index] = false
+
+			table.insert(boss_keys, key)
+		end
+
+		-- Subscribe to changes and retrieve the current saved values.
+		Archipelago:SetNotify(boss_keys)
+		Archipelago:Get(boss_keys)
+		
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
@@ -376,6 +501,18 @@ end
 ---@param location_name string name of the location cleared from the datapackage
 function OnLocation(location_id, location_name)
     MANUAL_CHECKED = false
+	
+	-- Boss locations are handled separately.
+    -- Only use special boss handling for the Bosses goal.
+    if SLOT_DATA
+        and tonumber(SLOT_DATA.goal_option) == 1
+        and BOSS_LOCATION_TO_INDEX[location_id] ~= nil then
+
+        UpdateBossLocation(location_id)
+        MANUAL_CHECKED = true
+        return
+    end
+	
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
         print(string.format("OnLocation: could not find location mapping for id %s", location_id))
@@ -486,6 +623,22 @@ end
 ---@param old_value table<integer, APHintMessage>
 function OnNotify(key, value, old_value)
     print("OnNotify", key, value, old_value)
+	
+	 -- Handle live boss DataStorage updates.
+    local boss_index = BOSS_STORAGE_KEYS[key]
+    if boss_index ~= nil then
+        if type(value) == "boolean" then
+            BOSS_STATES[boss_index] = value
+            BOSS_STATES_RECEIVED[boss_index] = true
+
+            -- Location ID = 9001 + boss index.
+            UpdateBossLocation(9001 + boss_index)
+            ForceUpdate()
+        end
+
+        return
+    end
+	
     if value ~= old_value and key == HINTS_ID then
         Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do
@@ -505,6 +658,20 @@ end
 ---@param key string Name of the key that was used to send the message
 ---@param value table<integer, APHintMessage>
 function OnNotifyLaunch(key, value)
+	-- Handle the initial boss values returned by Archipelago:Get().
+    local boss_index = BOSS_STORAGE_KEYS[key]
+
+    if boss_index ~= nil then
+        if type(value) == "boolean" then
+            BOSS_STATES[boss_index] = value
+            BOSS_STATES_RECEIVED[boss_index] = true
+
+            UpdateBossLocation(9001 + boss_index)
+            ForceUpdate()
+        end
+
+        return
+    end
     if key == HINTS_ID then
         Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do

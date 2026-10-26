@@ -129,3 +129,8 @@ function UpdateMiniconCounter()
 		end
 	end
 end
+
+
+function ReturnTrue()
+	return true
+end

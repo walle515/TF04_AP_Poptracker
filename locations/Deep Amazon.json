@@ -9,7 +9,9 @@
             {
                 "name": "Deep Amazon-Island Altar",
                 "access_rules": [
-                    "slipstream"
+                    "slipstream",
+                    "[flashbang]",
+                    "[hailstorm]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -53,7 +55,9 @@
             {
                 "name": "Deep Amazon-Spawn Ledge",
                 "access_rules": [
-                    "slipstream"
+                    "slipstream",
+					"[highgear]",
+					"[fullspeed]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -76,7 +80,9 @@
             {
                 "name": "Deep Amazon-Waterfall Rock",
                 "access_rules": [
-                    "slipstream"
+                    "slipstream",
+                    "[flashbang]",
+                    "[hailstorm]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -406,7 +412,8 @@
                     {
                         "name": "Deep Amazon-Antechamber Alcove",
                         "access_rules": [
-                            "highjump"
+                            "highjump",
+							"[$ReturnTrue]"
                         ],
                         "visibility_rules": [],
                         "sections": [
@@ -421,7 +428,8 @@
                     {
                         "name": "Deep Amazon-Temple Pool",
                         "access_rules": [
-                            "highjump"
+                            "highjump",
+							"[$ReturnTrue]"
                         ],
                         "visibility_rules": [],
                         "sections": [

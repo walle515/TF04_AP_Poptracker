@@ -9,7 +9,8 @@
             {
                 "name": "Alaska-Mountaintop",
                 "access_rules": [
-                    "highjump"
+                    "highjump",
+					"[$ReturnTrue]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -53,7 +54,10 @@
             {
                 "name": "Alaska-Caves Far Ledge",
                 "access_rules": [
-                    "highjump,slipstream"
+                    "highjump,slipstream",
+					"[slipstream]",
+					"[highgear]",
+					"[fullspeed]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -76,7 +80,8 @@
             {
                 "name": "Alaska-Caves Right Fork",
                 "access_rules": [
-                    "highjump"
+                    "highjump",
+					"[$ReturnTrue]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -99,7 +104,8 @@
             {
                 "name": "Alaska-Caves Left Fork",
                 "access_rules": [
-                    "highjump"
+                    "highjump",
+					"[$ReturnTrue]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -122,7 +128,8 @@
             {
                 "name": "Alaska-Caves Pool",
                 "access_rules": [
-                    "highjump"
+                    "highjump",
+					"[$ReturnTrue]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -145,7 +152,9 @@
             {
                 "name": "Alaska-Along the Canyon",
                 "access_rules": [
-                    "slipstream"
+                    "slipstream",
+					"[highgear]",
+					"[fullspeed]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -273,7 +282,8 @@
             {
                 "name": "Alaska-Dropship Island",
                 "access_rules": [
-                    "[slipstream]"
+                    "slipstream",
+					"[$ReturnTrue]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -317,7 +327,8 @@
             {
                 "name": "Alaska-Escape",
                 "access_rules": [
-                    "highjump"
+                    "highjump",
+					"[$ReturnTrue]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [

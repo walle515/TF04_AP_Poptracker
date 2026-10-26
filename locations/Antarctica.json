@@ -8,7 +8,10 @@
         "children": [
             {
                 "name": "Antarctica-Rock of Power",
-                "access_rules": [],
+                "access_rules": [
+					"highjump",
+					"[$ReturnTrue]"
+				],
                 "visibility_rules": [],
                 "map_locations": [
                     {
@@ -59,7 +62,9 @@
             {
                 "name": "Antarctica-Midfield Beacon",
                 "access_rules": [
-                    "slipstream"
+                    "slipstream",
+                    "[flashbang]",
+                    "[hailstorm]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -324,7 +329,8 @@
             {
                 "name": "Antarctica-Lonely Island",
                 "access_rules": [
-                    "slipstream"
+                    "slipstream",
+                    "[hailstorm]"
                 ],
                 "visibility_rules": [],
                 "map_locations": [

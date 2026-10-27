@@ -337,9 +337,10 @@
             {
                 "name": "Starship-Rock 1",
                 "access_rules": [
-                    "highjump,slipstream",
-					"highjump,[slipstream],flashbang",
-					"highjump,[slipstream],hailstorm"
+                    "highjump,slipstream,[highgear]",
+					"highjump,slipstream,[fullspeed]",
+					"highjump,[slipstream],[highgear],hailstorm",
+					"highjump,[slipstream],[fullspeed],hailstorm"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -408,9 +409,10 @@
             {
                 "name": "Starship-Rock 2",
                 "access_rules": [
-                    "highjump,slipstream",
-					"highjump,[slipstream],flashbang",
-					"highjump,[slipstream],hailstorm"
+                    "highjump,slipstream,[highgear]",
+					"highjump,slipstream,[fullspeed]",
+					"highjump,[slipstream],[highgear],hailstorm",
+					"highjump,[slipstream],[fullspeed],hailstorm"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -433,9 +435,7 @@
             {
                 "name": "Starship-Rock 3",
                 "access_rules": [
-                    "highjump,slipstream",
-					"highjump,[slipstream],flashbang",
-					"highjump,[slipstream],hailstorm"
+                    "highjump"
                 ],
                 "visibility_rules": [],
                 "map_locations": [
@@ -458,9 +458,10 @@
             {
                 "name": "Starship-Rock 4",
                 "access_rules": [
-                    "highjump,slipstream",
-					"highjump,[slipstream],flashbang",
-					"highjump,[slipstream],hailstorm"
+                    "highjump,slipstream,[highgear]",
+					"highjump,slipstream,[fullspeed]",
+					"highjump,[slipstream],[highgear],hailstorm",
+					"highjump,[slipstream],[fullspeed],hailstorm"
                 ],
                 "visibility_rules": [],
                 "map_locations": [

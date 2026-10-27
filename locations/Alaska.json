@@ -146,11 +146,7 @@
             },
             {
                 "name": "Alaska-Along the Canyon",
-                "access_rules": [
-                    "slipstream",
-					"[slipstream],highgear",
-					"[slipstream],fullspeed"
-                ],
+                "access_rules": [],
                 "visibility_rules": [],
                 "map_locations": [
                     {

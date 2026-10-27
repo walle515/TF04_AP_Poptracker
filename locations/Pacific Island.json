@@ -318,7 +318,7 @@
 				]
             },
             {
-                "name": "Pacific Island-Bunker 6",
+                "name": "Pacific Island-Bunker Plateau 1: Maze",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -328,20 +328,20 @@
                         "map": "Pacific Island",
                         "x": 335,
                         "y": 267,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 6",
+						"name": "Pacific Island-Bunker Plateau 1: Maze",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 3",
+                "name": "Pacific Island-Bunker Lighthouse 2: Tower",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -351,20 +351,20 @@
                         "map": "Pacific Island",
                         "x": 181,
                         "y": 497,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 3",
+						"name": "Pacific Island-Bunker Lighthouse 2: Tower",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 9",
+                "name": "Pacific Island-Bunker Lighthouse 1: Bridge"",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -374,20 +374,20 @@
                         "map": "Pacific Island",
                         "x": 156,
                         "y": 534,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 9",
+						"name": "Pacific Island-Bunker Lighthouse 1: Bridge"",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 4",
+                "name": "Pacific Island-Bunker Plateau 3: Tower",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -397,20 +397,20 @@
                         "map": "Pacific Island",
                         "x": 288,
                         "y": 114,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 4",
+						"name": "Pacific Island-Bunker Plateau 3: Tower",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 1",
+                "name": "Pacific Island-Bunker Plateau 2: Room",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -420,20 +420,20 @@
                         "map": "Pacific Island",
                         "x": 280,
                         "y": 128,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 1",
+						"name": "Pacific Island-Bunker Plateau 2: Room",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 2",
+                "name": "Pacific Island-Bunker Moai 3: Room",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -443,20 +443,20 @@
                         "map": "Pacific Island",
                         "x": 625,
                         "y": 725,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 2",
+						"name": "Pacific Island-Bunker Moai 3: Room",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 5",
+                "name": "Pacific Island-Bunker Moai 2: Maze",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -466,20 +466,20 @@
                         "map": "Pacific Island",
                         "x": 600,
                         "y": 668,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 5",
+						"name": "Pacific Island-Bunker Moai 2: Maze",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 7",
+                "name": "Pacific Island-Bunker Lighthouse 3: Room",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -489,20 +489,20 @@
                         "map": "Pacific Island",
                         "x": 231,
                         "y": 494,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 7",
+						"name": "Pacific Island-Bunker Lighthouse 3: Room",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 8",
+                "name": "Pacific Island-Bunker Moai 1: Bridge",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -512,13 +512,13 @@
                         "map": "Pacific Island",
                         "x": 610,
                         "y": 626,
-                        "size": 10,
+                        "size": 14,
                         "shape": "trapezoid"
                     }
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 8",
+						"name": "Pacific Island-Bunker Moai 1: Bridge",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
@@ -585,15 +585,15 @@
 			{ "ref": "Pacific Island/Pacific Island-Above the Waterfall/Pacific Island-Above the Waterfall" },
 			{ "ref": "Pacific Island/Pacific Island-Large Silo/Pacific Island-Large Silo" },
 			{ "ref": "Pacific Island/Pacific Island-Small Island/Pacific Island-Small Island" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 1/Pacific Island-Bunker 1" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 4/Pacific Island-Bunker 4" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 5/Pacific Island-Bunker 5" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 6/Pacific Island-Bunker 6" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 7/Pacific Island-Bunker 7" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 8/Pacific Island-Bunker 8" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 9/Pacific Island-Bunker 9" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 2/Pacific Island-Bunker 2" },
-			{ "ref": "Pacific Island/Pacific Island-Bunker 3/Pacific Island-Bunker 3" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Plateau 2: Room/Pacific Island-Bunker Plateau 2: Room" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Plateau 3: Tower/Pacific Island-Bunker Plateau 3: Tower" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Moai 2: Maze/Pacific Island-Bunker Moai 2: Maze" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Plateau 1: Maze/Pacific Island-Bunker Plateau 1: Maze" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Lighthouse 3: Room/Pacific Island-Bunker Lighthouse 3: Room" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Moai 1: Bridge/Pacific Island-Bunker Moai 1: Bridge" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Lighthouse 1: Bridge/Pacific Island-Bunker Lighthouse 1: Bridge" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Moai 3: Room/Pacific Island-Bunker Moai 3: Room" },
+			{ "ref": "Pacific Island/Pacific Island-Bunker Lighthouse 2: Tower/Pacific Island-Bunker Lighthouse 2: Tower" },
 			{ "ref": "Pacific Island/Pacific Island Boss/Pacific Island Boss" }
 		]
     }

@@ -410,7 +410,7 @@
 				]
             },
             {
-                "name": "Pacific Island-Bunker 2",
+                "name": "Pacific Island-Bunker 1",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -426,14 +426,14 @@
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 2",
+						"name": "Pacific Island-Bunker 1",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}
 				]
             },
             {
-                "name": "Pacific Island-Bunker 1",
+                "name": "Pacific Island-Bunker 2",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -449,7 +449,7 @@
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker 1",
+						"name": "Pacific Island-Bunker 2",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}

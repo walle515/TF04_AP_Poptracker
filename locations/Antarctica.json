@@ -63,7 +63,9 @@
                 "access_rules": [
                     "slipstream",
                     "[slipstream],flashbang",
-                    "[slipstream],hailstorm"
+                    "[slipstream],hailstorm",
+					"[slipstream],highgear",
+					"[slipstream],fullspeed"
                 ],
                 "visibility_rules": [],
                 "map_locations": [

@@ -83,7 +83,8 @@
                 "name": "Deep Amazon-Waterfall Rock",
                 "access_rules": [
                     "slipstream",
-                    "[slipstream],flashbang",
+                    "[slipstream],highgear",
+					"[slipstream],fullspeed",
                     "[slipstream],hailstorm"
                 ],
                 "visibility_rules": [],

@@ -364,7 +364,7 @@
 				]
             },
             {
-                "name": "Pacific Island-Bunker Lighthouse 1: Bridge"",
+                "name": "Pacific Island-Bunker Lighthouse 1: Bridge",
                 "access_rules": [
                     "slipstream"
                 ],
@@ -380,7 +380,7 @@
                 ],
 				"sections": [
 					{
-						"name": "Pacific Island-Bunker Lighthouse 1: Bridge"",
+						"name": "Pacific Island-Bunker Lighthouse 1: Bridge",
 						"chest_unopened_img": "images/transparent.png",
 						"chest_opened_img": "images/transparent.png"
 					}

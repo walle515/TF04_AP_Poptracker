@@ -57,10 +57,10 @@ LOCATION_MAPPING = {
     [2053] = {"@Deep Amazon/Deep Amazon-Jungle Village Warpgate/Deep Amazon-Jungle Village Warpgate"},
     [2054] = {"@Deep Amazon/Deep Amazon Temple/Deep Amazon-Temple Dead End/Temple Dead End"},
     [2055] = {"@Deep Amazon/Deep Amazon Temple - Highjump/Deep Amazon-Temple Pool/Temple Pool"},
-    [2056] = {"@Deep Amazon/Deep Amazon Temple/Deep Amazon-Temple Side-Path/Temple Side-Path"},
+    [2059] = {"@Deep Amazon/Deep Amazon Temple/Deep Amazon-Temple Side-Path/Temple Side-Path"},
     [2057] = {"@Deep Amazon/Deep Amazon-Forest before the Bridge/Deep Amazon-Forest before the Bridge"},
     [2058] = {"@Deep Amazon/Deep Amazon Temple/Deep Amazon-Antechamber/Antechamber"},
-    [2059] = {"@Deep Amazon/Deep Amazon Temple - Highjump/Deep Amazon-Antechamber Alcove/Antechamber Alcove"},
+    [2056] = {"@Deep Amazon/Deep Amazon Temple - Highjump/Deep Amazon-Antechamber Alcove/Antechamber Alcove"},
     [2060] = {"@Deep Amazon/Deep Amazon-Behind the Temple/Deep Amazon-Behind the Temple"},
 
     [3061] = {"@Mid Atlantic/Mid Atlantic-Vanilla Progression/Mid Atlantic-Vanilla Progression"},

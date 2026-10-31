@@ -360,7 +360,9 @@
             },
             {
                 "name": "Alaska Complete",
-                "access_rules": [],
+                "access_rules": [
+					"[highjump]"
+				],
                 "visibility_rules": [],
                 "map_locations": [
                     {

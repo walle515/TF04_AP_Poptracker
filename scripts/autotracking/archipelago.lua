@@ -441,7 +441,8 @@ function OnClear(slot_data)
 
 		for boss_index = 0, 6 do
 			local key = string.format(
-				"tf04_%s_%s_Boss_%d",
+				"tf04_%s_%s_%s_Boss_%d",
+				toString(Archipelago.Seed),
 				tostring(Archipelago.TeamNumber),
 				tostring(Archipelago.PlayerNumber),
 				boss_index

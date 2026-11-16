@@ -3,7 +3,7 @@
         {
             "package_version": "1.2.2",
             "download_url": "https://github.com/walle515/TF04_AP_Poptracker/releases/download/1.2.1/TF04_AP_Poptracker.zip",
-            "sha256": "60EB888BB75D8D2E49A65FCB1688E7BC1BBA78BCC2BEFE43E0760EC1DD8F5779",
+            "sha256": "CDE94D086313A7286388B8CD15EF814F2EA43D402A55D18083CDB0A9A5CDBAEA",
             "changelog": [
                 "Fixed Typo."
             ]

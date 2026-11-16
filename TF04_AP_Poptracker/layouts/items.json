@@ -94,16 +94,53 @@
                             [
                                 "amazonlevelunlock",
 								"antarcticalevelunlock"
-                            ],
-                            [
+							],
+							[
 								"deepamazonlevelunlock",
 								"midatlanticlevelunlock"
                             ],
                             [
                                 "alaskalevelunlock",
 								"starshiplevelunlock"
+							],
+							[
+								"pacificislandlevelunlock",
+								"unicronlevelunlock"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+	"shared_level_grid_alt": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "left",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 128,
+                        "rows": [
+                            [
+                                "amazonlevelunlock",
+								"antarcticalevelunlock",
+								"deepamazonlevelunlock",
+								"midatlanticlevelunlock"
                             ],
                             [
+                                "alaskalevelunlock",
+								"starshiplevelunlock",
 								"pacificislandlevelunlock",
 								"unicronlevelunlock"
                             ]

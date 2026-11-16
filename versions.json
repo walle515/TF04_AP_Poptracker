@@ -1,0 +1,20 @@
+{
+    "versions": [
+        {
+            "package_version": "1.2.1",
+            "download_url": "https://github.com/walle515/TF04_AP_Poptracker/releases/download/1.2.1/TF04_AP_Poptracker.zip",
+            "sha256": "9F84944052C1CDB3DDF83E60451CE39784987A5F3DC2C41500306C69033FC8AE",
+            "changelog": [
+                "Enabled automatic pack updates."
+            ]
+        },
+        {
+            "package_version": "1.2.0",
+            "download_url": "https://github.com/walle515/TF04_AP_Poptracker/releases/download/1.2.0/TF04_AP_Poptracker.zip",
+            "sha256": "45933d32fe4cf6f5c2fb3923a3b3cc2c8ff4d95bac5c93e749e6d073432e8ee5",
+            "changelog": [
+                "Updated to work with new version of AP World to account for seed names in server keys."
+            ]
+        }
+    ]
+}
